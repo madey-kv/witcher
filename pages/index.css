@@ -3,6 +3,7 @@
 @import url(../vendor/videotube.min.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/_active/burger_active.css);
 @import url(../blocks/burger/__line/burger__line.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__image/card__image.css);

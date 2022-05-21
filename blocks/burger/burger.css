@@ -10,3 +10,21 @@
   background-color: transparent;
   border: 0;
 }
+
+.burger:before, .burger:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: var(--size-line);
+  background-color: var(--color);
+  transition: transform .3s, top .3s;
+}
+
+.burger:before {
+  top: 0;
+}
+
+.burger:after {
+  top: calc(100% - var(--size-line));
+}
