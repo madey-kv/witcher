@@ -1,0 +1,10 @@
+@media (max-width: 750px) {
+    .navigation__list_active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        gap: 10px;
+    }
+}

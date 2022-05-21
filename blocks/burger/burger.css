@@ -1,0 +1,12 @@
+.burger {
+  --width: 22px;
+  --height: 12px;
+  --color: #fff;
+  --size-line: 2px;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}

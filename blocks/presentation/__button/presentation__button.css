@@ -1,0 +1,28 @@
+.presentation__button {
+  display: block;
+  width: 285px;
+  height: 68px;
+  background-image: url(../../../images/button.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+}
+
+.presentation__button:hover, .presentation__button:active {
+  background-image: url(../../../images/button-hover.png);
+}
+
+@media (max-width: 1000px) {
+  .presentation__button {
+    width: 246px;
+    height: 59px;
+  }
+}
+
+@media (max-width: 650px) {
+  .presentation__button {
+    width: 290px;
+    height: 63px;
+  }
+}

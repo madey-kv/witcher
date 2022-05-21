@@ -1,0 +1,10 @@
+.burger__line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: var(--size-line);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color);
+  transition: transform .3s;
+}

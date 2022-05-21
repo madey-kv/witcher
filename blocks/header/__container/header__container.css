@@ -1,0 +1,17 @@
+.header__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+@media (max-width: 750px) {
+  .header__container {
+    grid-template-columns: 60px 1fr 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__container {
+    grid-template-columns: 45px 1fr 45px;
+  }
+}

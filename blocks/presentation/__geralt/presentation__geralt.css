@@ -1,0 +1,21 @@
+.presentation__geralt {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .presentation__geralt {
+    margin-bottom: 10px;
+  }
+}
+
+  @media (max-width: 850px) {
+    .presentation__geralt {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .presentation__geralt {
+      margin-bottom: 30px;
+    }
+  }

@@ -1,0 +1,9 @@
+.card__image {
+  flex-basis: 255px;
+}
+
+@media (max-width: 1000px) {
+  .card__image {
+    flex-basis: 210px;
+  }
+}

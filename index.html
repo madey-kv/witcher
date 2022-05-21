@@ -9,13 +9,15 @@
   <link rel="icon" href="./images/logo.svg">
 
   <link rel="preload" href="./vendor/fonts/ibm-plex-mono-latin_cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="./scripts/index.js" type="module"></script>
+
   <link rel="stylesheet" href="./pages/index.css">
   
 </head>
 <body class="page">
   <header class="header">
     <div class="container header__container">
-      <img src="./images/logo.svg" alt="логоти сериала Ведьмак" class="header__logo">
+      <img src="./images/logo.svg" alt="логотип сериала Ведьмак" class="header__logo">
 
       <p class="header__announcement">2 сезон уже с 17 декабря</p>
 
@@ -33,19 +35,23 @@
             <a href="#" class="navigation__link navigation__link_type_kinopoisk"></a>
           </li>
         </ul>
+
+        <button class="navigation__button burger">
+          <span class="burger__line"></span>
+        </button>
       </nav>
     </div>
   </header>
 
   <section class="presentation">
-    <div class="container">
+    <div class="container presentation__container">
       <div class="presentation__geralt">
         <h1 class="presentation__title">Ведьмак</h1>
         
         <p class="presentation__tagline">Те, кто связан предназначением,
           всегда найдут друг друга</p>
 
-          <a href="https://youtu.be/aTPPmHqMZOw" target="_blank" class="presentation__button"></a>
+          <a href="https://youtu.be/aTPPmHqMZOw" target="_blank" class="presentation__button tube"></a>
       </div>
 
       <div class="presentation__tabs tabs">
@@ -65,38 +71,41 @@
 
         <ul class="tabs__list">
           <li class="tabs__item tabs__item_active">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_video" data-base="video">
               <li class="card card_video">
-                <a href="https://youtu.be/aTPPmHqMZOw" target="_blank" class="card__link"></a>
+                <a href="https://youtu.be/aTPPmHqMZOw" target="_blank" class="card__link tube">
 
                 <figure>
                   <img src="./images/witcher.s02tr01.jpg" alt="" class="card__video-img">
                   <figcaption>Русский трейлер #1</figcaption>
                 </figure>
+                </a>
               </li>
 
               <li class="card card_video">
-                <a href="https://youtu.be/PQ59CmCyOk4" target="_blank" class="card__link"></a>
+                <a href="https://youtu.be/PQ59CmCyOk4" target="_blank" class="card__link tube">
 
                 <figure>
                   <img src="./images/witcher.s02tr02.jpg" alt="" class="card__video-img">
                   <figcaption>Русский трейлер #2</figcaption>
                 </figure>
+                </a>
               </li>
 
               <li class="card card_video">
-                <a href="https://youtu.be/Si65KjkMy8s" target="_blank" class="card__link"></a>
+                <a href="https://youtu.be/Si65KjkMy8s" target="_blank" class="card__link tube">
 
                 <figure>
                   <img src="./images/witcher.s02tiz01.jpg" alt="" class="card__video-img">
                   <figcaption>Тизер на русском</figcaption>
                 </figure>
+                </a>
               </li>
             </ul>
           </li>
 
           <li class="tabs__item">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_picture" data-base="photo">
               <li class="card card_image">
                 <img class="card__photo-img" src="./images/cirilla.jpg" alt="">
               </li>
@@ -116,7 +125,7 @@
           </li>
 
           <li class="tabs__item">
-            <ul class="tabs__content">
+            <ul class="tabs__content tabs__content_product" data-base="products">
               <li class="card card_merch">
                 <article class="product">
                   <img src="./images/pendant.jpg" alt="" class="product__img">

@@ -1,0 +1,9 @@
+.navigation__button {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .navigation__button {
+    display: block;
+  }
+}

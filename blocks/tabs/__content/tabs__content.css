@@ -1,0 +1,11 @@
+.tabs__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media (max-width: 850px) {
+  .tabs__content {
+    flex-wrap: wrap;
+  }
+}

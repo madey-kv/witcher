@@ -1,0 +1,4 @@
+.product__wrapper-buy {
+  display: flex;
+  justify-content: space-between;
+}

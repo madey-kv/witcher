@@ -1,0 +1,10 @@
+@media (min-height: 900px) {
+    .presentation__container {
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-height: 1200px;
+    }
+}
